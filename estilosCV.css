@@ -1,0 +1,100 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #194980;
+}
+
+.text-add{
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+.container-main{
+    background-color: #f8f9fa;
+
+}
+
+.container-two{
+    display: flex;
+    justify-content: space-between;
+}
+
+#imagen-personal{
+    width: 240px;
+    height: 295px;
+    border-radius: 30px;
+    box-shadow: -5px 5px 10px ;
+}
+
+#foto{
+    margin-left: 20px;
+}
+
+#presentation{
+    width: 60%;
+}
+
+#contact{
+    margin-right: 80px;
+}
+
+.imagen-con-texto {
+    position: relative;
+  }
+  
+  .texto-flotante {
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.1s;
+    font-size: 15px;
+    font-family: Segoe UI Semibold;
+    color: #194980;
+  }
+
+  img:hover + .texto-flotante{
+    opacity: 1;
+  }
+
+  #Foto1{
+    width:250px;
+    height: 500px;
+    border-radius: 50%;
+    border-top: 1px;
+ }
+
+.list{
+    font-size: 18px;
+    color: #003554;
+}
+
+ul{
+    list-style-image: url(Recursos/Premio20.png);
+}
+
+.carousel slide{
+    transition: 2s ease-in-out;
+}
+
+.img-container-main{
+    width: 10%;
+}
+
+.container-four{
+    
+}
+
+.footer{
+    background-color: #F8F9FA;
+}
+
+#copyright{
+    text-align: center;
+    font-size: 10px;
+}
+
+.p-fieldset{
+    border-left: 25px;
+}
