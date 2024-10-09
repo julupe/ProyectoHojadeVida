@@ -82,10 +82,6 @@ ul{
     width: 10%;
 }
 
-.container-four{
-    
-}
-
 .footer{
     background-color: #F8F9FA;
 }
@@ -95,6 +91,7 @@ ul{
     font-size: 10px;
 }
 
-.p-fieldset{
-    border-left: 25px;
+#irArriba{
+  display: flex;
+  justify-content: center;
 }
